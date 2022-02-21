@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Style & Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/d1bfdfef15.js" crossorigin="anonymous"></script>
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <title>AnimeBar</title>
+  </head>
+  <body>
+    <section id="title">
+    <!--- Navbar --->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #DDA0DD;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="animebar.html"><i class="fab fa-angular"></i>nimeBar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="genre.html">Category</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="profile.html">Profile</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+    <br><br>
+    <h2>Top-3 anime</h2>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/naruto.jpg" class="d-block w-80" alt="..." >
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Naruto</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/gule.jpg" class="d-block w-80" alt="..." >
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Tokyo Ghoul</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/titan.jpg" class="d-block w-80" alt="..." >
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Attack On Titan</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br><br>
+    <hr>
+
+    <div class="container">
+      <div class="alert alert-secondary" role="alert">
+        <h2>Watch now</h2>
+      </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <div class="card-group">
+      <div class="card" style="width: 8rem;">
+  <img src="img/avengers.jpg" class="img-thumbnail" alt="..." width="125px" height="125px">
+  <div class="card-body">
+    <h5 class="card-title"> <button type="button" class="btn btn-primary">Tokyo Revengers</button> </h5>
+  </div>
+</div>
+<div class="card" style="width: 8rem;">
+<img src="img/demon.jpg" class="img-thumbnail" alt="..." width="125px" height="125px">
+<div class="card-body">
+<h5 class="card-title"> <button type="button" class="btn btn-secondary">Demon Slayer</button> </h5>
+</div>
+</div>
+<div class="card" style="width: 8rem;">
+<img src="img/gule1.jpg" class="img-thumbnail" alt="..." width="125px" height="125px">
+<div class="card-body">
+<h5 class="card-title"> <button type="button" class="btn btn-success">Tokyo Ghoul</button> </h5>
+</div>
+</div>
+<div class="card" style="width: 8rem;">
+<img src="img/hello_world.jpg" class="img-thumbnail" alt="..." width="125px" height="125px">
+<div class="card-body">
+<h5 class="card-title"> <button type="button" class="btn btn-danger">Hello World</button> </h5>
+</div>
+</div>
+<div class="card" style="width: 8rem;">
+<img src="img/horimia.jpg" class="img-thumbnail" alt="..." width="125px" height="125px">
+<div class="card-body">
+<h5 class="card-title"> <button type="button" class="btn btn-warning">Horimiya</button> </h5>
+</div>
+</div>
+<div class="card" style="width: 8rem;">
+<img src="img/name.jpg" class="img-thumbnail" alt="..." width="125px" height="125px">
+<div class="card-body">
+<h5 class="card-title"> <button type="button" class="btn btn-info">Your name</button> </h5>
+</div>
+</div>
+<div class="card" style="width: 8rem;">
+<img src="img/takt.jpg" class="img-thumbnail" alt="..." width="115px" height="110px">
+<div class="card-body">
+<h5 class="card-title"> <button type="button" class="btn btn-danger">Takt Opus Destiny</button> </h5>
+</div>
+</div>
+<div class="card" style="width: 8rem;">
+<img src="img/violet.jpg" class="img-thumbnail" alt="..." width="125px" height="130px">
+<div class="card-body">
+<h5 class="card-title"> <button type="button" class="btn btn-dark">Violet Evergarden</button> </h5>
+</div>
+</div>
+<div class="card" style="width: 8rem;">
+<img src="img/volna.jpg" class="img-thumbnail" alt="..." width="125px" height="125px">
+<div class="card-body">
+<h5 class="card-title"> <button type="button" class="btn btn-link">Ride Your Wave</button> </h5>
+</div>
+</div>
+<div class="card" style="width: 8rem;">
+<img src="img/ghosts.jpg" class="img-thumbnail" alt="..." width="125px" height="125px">
+<div class="card-body">
+<h5 class="card-title"> <button type="button" class="btn btn-outline-info">Spirited Away</button> </h5>
+</div>
+</div>
+</div>
+    </div>
+  </nav>
+</div>
+</section>
+
+<br><br>
+<hr>
+<section id="info">
+   <div class="row">
+
+   <div class="feature-box col-lg-4">
+     <i class="fas fa-mail-bulk"></i>
+
+     <h4 class="aio-icon-title">Reviews</h4>
+     <form class="" action="index.html" method="post">
+       <label for="fname"><font color="white">Reviews:</font></label><br>
+       <input type="text" id="fname" name="fname"><br>
+     </form>
+
+       </div>
+
+   <div class="feature-box2 col-lg-4">
+     <i class="fas fa-phone-alt"></i>
+     <h4 class="aio-icon-title">Contact:</h4>
+     <button type="button" class="btn btn-danger">Help</button>
+8-777-777-77-77
+
+   </div>
+   <div class="feature-box3 col-lg-4">
+     <i class="fas fa-handshake"></i>
+     <h4 class="aio-icon-title">Creater</h4>
+     xkasym@inbox.ru
+   </div>
+ </div>
+</section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
