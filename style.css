@@ -1,0 +1,10 @@
+body {
+  font-family: inherit;
+}
+h5 {
+  text-align: center;
+}
+/* Carousel */
+.carousel-item {
+  height: 400px;
+}

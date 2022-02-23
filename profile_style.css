@@ -1,0 +1,182 @@
+body {
+  font-family: inherit;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+button:hover {
+font-weight: bold;
+transform: scale(1.1);
+}
+
+/* container */
+.container {
+  width: 800px;
+  height: 500px;
+  background-color: #F86A6A;
+  position: relative;
+}
+
+/* Внутренний блок */
+.block {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.block__item {
+  width: 50%;
+
+}
+/* Элементы блока */
+.block-item {
+  text-align: center;
+}
+
+.block-item__title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.block-item__btn1 {
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #ABAA6A;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.block-item__btn2 {
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #BEE26A;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* Блок формы */
+.form-box {
+  background-color: #fff;
+  height: 100%;
+  width: 50%;
+  box-shadow: 0 5px 45px rgba(255, 0, 0, 0.5);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  transition: 0.5s ease-in-out;
+
+  display: flex;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.form-box.active {
+  left: 50%;
+}
+
+/* Форма */
+.form {
+  width: 100%;
+  padding: 50px;
+  font-size: 16px;
+
+  position: absolute;
+  transition: 0.5s;
+}
+
+.form_signin {
+  left: 0;
+  transition-delay: 0.25s;
+}
+
+.form_signup {
+  left: 100%;
+  transition-delay: 0;
+}
+
+.form-box.active .form_signin {
+  left: -100%;
+  transition-delay: 0s;
+}
+
+.form-box.active .form_signup {
+  left: 0;
+  transition-delay: 0.25s;
+}
+
+.form__title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.form__input {
+  width: 100%;
+  padding: 10px;
+  border: solid 1px #333;
+  font-size: inherit;
+}
+
+.form__btn {
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+  background-color: #BEE26A;
+  color: #fff;
+  padding: 10px 50px;
+}
+
+.form__btn_signup {
+  background-color: #ABAA6A;
+}
+
+.form__forgot {
+  color: #333;
+}
+
+/* Адаптив */
+@@media (max-width: 992px) {
+  .container {
+    max-width: 400px;
+    max-height: 650px;
+    padding: 0;
+    margin: 0 20px;
+  }
+
+  .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .block__item {
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  .form-box {
+    width: 100%;
+    height: 500px;
+    box-shadow: none;
+
+    top: 0;
+  }
+
+  .form-box.active {
+    top: 150px;
+    left: 0;
+  }
+}

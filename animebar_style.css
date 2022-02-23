@@ -1,0 +1,61 @@
+/* body */
+h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #5E445E;
+}
+
+/* Applications */
+#application {
+  background: fff;
+}
+
+/* Features */
+#features {
+  background: #C48DC4;
+  padding: 7% 5%;
+  text-align: center;
+  color: #fff;
+
+}
+.feature-box {
+  padding: 5%;
+}
+.icon {
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #808080;
+}
+
+/* Testimonials */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+}
+.testimonials-feedback {
+  font-weight: bold;
+  color: #5E445E;
+  margin-top: 5%;
+}
+.testimonials-img {
+  width: 45%;
+  margin: 5% 20%;
+  border-radius: 100%;
+}
+
+/* Press section */
+#Press {
+  background-color: #fff;
+  text-align: center;
+  padding: 5%;
+}
+.press-logo {
+  width: 20%;
+  margin: 0px 25px;
+}
+.hr1 {
+  color: #C48DC4;
+}

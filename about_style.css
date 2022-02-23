@@ -1,0 +1,28 @@
+body {
+font-family: inherit;
+margin: auto;
+align-items: center;
+justify-content: center;
+background-color: #E6F5FF;
+}
+
+
+
+/* DIV container */
+.container {
+  align-items: center;
+  text-align: center;
+}
+
+/* pics */
+.pics {
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  height: 250px;
+}
+
+/* About word */
+.about {
+  b
+}
